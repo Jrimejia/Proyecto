@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economia</title>
     <link rel="stylesheet" href="Style.css">
+    <style>
+
+        
+      .mobile-only{
+          display: none;/* Se oculta en pantallas grandes*/
+      }
+      .desktop-only{
+       display: block;/* Se Muestra en pantallasgrandes*/
+      
+      }
+      
+      
+          /*Media query para pantallas pequeñas*/
+      @media screen  and (max-width:600px){
+          body{
+              background-color: rgb(249, 249, 249);
+          }
+          .mobile-only{
+               display: block;/* Se muestra solo en pantallas pequeñas*/
+          }
+          .desktop-only{
+              display: none;/* Se Oculta en pantallas Pequeñas*/
+          }
+      }
+      
+      /*Media Query para pantallas medianas*/
+      @media screen and (min-width:601px) and (min-width:1024px) 
+          {
+               body{
+                      background-color: rgb(253, 255, 253);
+                   }
+          }
+      
+          </style>
 </head>
 <body>
   <nav class="navbar">
