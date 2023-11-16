@@ -160,6 +160,7 @@ body {
       transform: translate(0);
     }
   }
+ 
   
   .about-text {
     flex: 1 1 400px;
@@ -185,9 +186,6 @@ body {
   }
   
   
-  #inteligencia {
-    padding: 5rem 0 10rem 0;
-  }
   
   #inteligencia h2 {
     text-align: center;
@@ -196,12 +194,15 @@ body {
     margin-bottom: 40px;
     text-transform: uppercase;
     color: #555;
+    margin-top: 40px;
+  }
+  
+  .inteligencia-container {
+   
+    justify-content: space-evenly;
   }
 
-  .inteligencia-container {
-    display: flex;
-    justify-content: space-between;
-  }
+
   
   .img-container {
     margin: 0 1rem;
@@ -498,7 +499,7 @@ body {
   
     .form-container {
       color: #4a22eb
-      width: 90%;
+     
     }
   
     .contact-container {
@@ -519,7 +520,8 @@ body {
       font-size: 3rem;
     }
   
-    .navbar .menu-items li {
+    .navbar .menu-items li 
+     {
       margin-bottom: 2.5rem;
       font-size: 1.8rem;
       font-weight: 500;
