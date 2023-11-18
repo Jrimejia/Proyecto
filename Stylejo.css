@@ -270,6 +270,12 @@ body {
     opacity: 0;
   }
 
+
+  .menus{
+   display: none;
+   
+ }
+ 
   .navbar-container .hamburger-lines {
     display: block;
     height: 23px;
