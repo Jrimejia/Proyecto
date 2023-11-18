@@ -135,7 +135,7 @@ body {
   
   .menus{
 
-    margin-right: 20rem;
+    margin-right: 20%;
   }
   #about h2 {
     font-size: 2.3rem;
@@ -406,7 +406,10 @@ body {
   .navbar-container .hamburger-lines {
     display: block;
   }
-
+  .menus{
+    display: none;
+    
+  }
   .navbar-container {
     display: block;
     position: relative;
