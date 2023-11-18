@@ -230,6 +230,17 @@ body {
     transition: color 0.3s ease-in-out;
   }
 
+  .navbar {
+   box-shadow: 0px 5px 10px 0px #aaa;
+   
+   width: 100%;
+   background: #fff;
+   color: #000;
+   opacity: 0.85;
+   height: 50px;
+   z-index: 12;
+ }
+
 /* ......../ NAVBVAR /.......... */
   
 @media (max-width: 768px) {
@@ -314,12 +325,7 @@ body {
     font-weight: 500;
   }
 
-  .logo {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    font-size: 2rem;
-  }
+ 
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
@@ -339,63 +345,3 @@ body {
 
 
 
-
-
-  /* ......../ navbar /.......... */
-  
-  @media (max-width: 500px) {
-    html {
-      font-size: 65%;
-    }
-  
-      .articulos-container {
-      flex-direction: column;
-      text-align: center;
-    }
- 
-  
-    .form-container {
-      color: #4a22eb
-      width 90%;
-    }
-  
-    .contact-container {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .contact-img {
-      width: 90%;
-      
-      margin: 3rem auto;
-    }
-  
-    .logo {
-      position: absolute;
-      top: 06px;
-      right: 15px;
-      font-size: 3rem;
-    }
-  
-    .navbar .menu-items li {
-      margin-bottom: 2.5rem;
-      font-size: 1.8rem;
-      font-weight: 500;
-    }
-  }
-  
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .img-container h3 {
-      font-size: 1.5rem;
-    }
-  
-    .img-container .btn {
-      font-size: 0.7rem;
-    }
-  }
-  
-  @media (orientation: landscape) and (max-height: 500px) {
-    .showcase-area {
-      height: 50vmax;
-    }
-  }
