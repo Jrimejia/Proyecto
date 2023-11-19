@@ -450,6 +450,10 @@ body {
       text-align: center;
     }
  
+    .inteligencia-container {
+      flex-direction: column;
+      text-align: center;
+    }
   
     .form-container {
       color: #4a22eb
