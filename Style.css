@@ -202,7 +202,10 @@ body {
 
   .inteligencia-container {
   
+    display: flex;
     justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
   }
   
   .img-container {
@@ -407,6 +410,10 @@ body {
     display: block;
   }
   
+  .inteligencia-container {
+    flex-direction: column;
+    text-align: center;
+  }
   .menus{
     display: none;
     
