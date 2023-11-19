@@ -348,6 +348,7 @@ body {
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
+}
 
 
 

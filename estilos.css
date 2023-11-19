@@ -439,8 +439,9 @@ body {
   
 
   
-  @media (max-width: 500px) {
-    html {
+  @media (max-width: 500px){
+   
+    .html {
       font-size: 65%;
     }
   
@@ -452,7 +453,7 @@ body {
   
     .form-container {
       color: #4a22eb
-      width: 90%;
+      
     }
   
     .contact-container {
@@ -474,11 +475,13 @@ body {
     }
   
     
-  }
+  
   .img-luis{
     width: 150px;
     height: 130px;
+  
     
+  }
 }
 
 
@@ -534,7 +537,8 @@ body {
   .menu-items a:hover {
     color: #117964;
     transition: color 0.3s ease-in-out;
-  }sition: color 0.3s ease-in-out;
+   position: color 0.3s ease-in-out;
+  }
   
 
   .navbar {
@@ -656,5 +660,5 @@ body {
     transform: rotate(-35deg);
   }
 
-
+}
 
