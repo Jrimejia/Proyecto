@@ -224,11 +224,13 @@ body {
     animation: about-text-animation 1s ease-in-out forwards;
   }
   
+
   @keyframes about-text-animation {
     100% {
       transform: translate(0);
     }
   }
+
   
   .about-img img {
     display: block;
