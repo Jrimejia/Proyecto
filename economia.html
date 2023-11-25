@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economía</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="estilocalculadora.css">
+    <script src="calculadora.js"></script>
+    <style>
+
+        
+      .mobile-only{
+          display: none;/* Se oculta en pantallas grandes*/
+      }
+      .desktop-only{
+       display: block;/* Se Muestra en pantallasgrandes*/
+      
+      }
+      
+      
+          /*Media query para pantallas pequeñas*/
+      @media screen  and (max-width:600px){
+          body{
+              background-color: rgb(249, 249, 249);
+          }
+          .mobile-only{
+               display: block;/* Se muestra solo en pantallas pequeñas*/
+          }
+          .desktop-only{
+              display: none;/* Se Oculta en pantallas Pequeñas*/
+          }
+      }
+      
+      /*Media Query para pantallas medianas*/
+      @media screen and (min-width:601px) and (min-width:1024px) 
+          {
+               body{
+                      background-color: rgb(253, 255, 253);
+                   }
+          }
+      
+          </style>
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+         <div class="hamburger-lines">
+            <span class="line line1"></span>
+           <span class="line line2"></span>
+           <span class="line line3"></span>
+     </div>
+    
+   <ul class="menu-items">
+          <li><a href="Index.html">Inicio</a></li> 
+          <li><a href="informatica.html">Informática</a></li>
+          <li><a href="economia.html">Economía</a></li>
+          <li><a href="deportes.html">Deportes</a></li>
+          <li><a href="login.html">Login</a></li>
+      
+   </ul>
+   <h1 class="menus">Revista Vanguardia Interactiva</h1>     
+     </div>
+</nav>
+     <section class="showcase-area" id="showcase">
+       <div class="showcase-container">
+         <h1 class="main-title" id="Inicio">Economía</h1>
+         <p>Consejos practicos para manejar tu economía</p>
+      </div>
+     </section>
+ 
+     <section id="about">
+       <div class="about-wrapper container">
+         <div class="about-text">
+           <p class="small">Economía colombiana</p>
+           <h2>Nuestra economía actual</h2>
+           <br>
+           <br>
+           <p>
+            Colombia tiene un historial de gestión macroeconómica y fiscal prudente, anclado en un régimen de inflación objetivo, un tipo de cambio flexible y un marco fiscal basado en una regla fiscal moderna, que proveen una buena base para asegurar la estabilidad macroeconómica,
+             un ingrediente clave para la reducción de la pobreza.
+
+            El PIB creció sólidamente a una tasa de 7,3% en 2022, pero la economía se sobrecalentó con la actividad operando por encima de su potencial, una inflación acelerada, y un alto déficit de cuenta corriente. A medida que el rebrote del consumo reprimido durante la pandemia se desvanezca, 
+            las políticas monetaria y fiscal sigan en terreno contractivo, y la demanda externa se mantenga débil, se prevé que el PIB solo crecerá 1,7% en 2023 y que la economía se dirigirá a un aterrizaje suave, lo cual es necesario para corregir el surgimiento de desequilibrios internos y externos. Se prevé que el crecimiento aumente gradualmente a 2,0% en 2024 y 3,2% en 2015, conforme la demanda externa se reactive, y la inflación y las tasas de interés disminuyan. 
+
+            La inflación alcanzó 13,1% a final del 2022 explicada por la fuerte demanda interna, la inercia de la inflación, la indexación de rentas, las pérdidas de cultivos por las fuertes lluvias, y la depreciación del peso colombiano.
+           </p>
+         </div>
+         <div class="about-img">
+           <img src="./imagenes/eco2.jpg">
+         </div>
+       </div>
+     </section>
+
+     <section id="inteligencia">
+       <h2>Artículos de interés</h2>
+       <br><br><br><div class="inteligencia-container container">
+         <div class="ingeligencia-type">
+           <div class="img-container">
+          <center>  <img src="./imagenes/pib.jpg" alt="error" width="255px" height="255px"></center> 
+           <center>  <h1>PIB</h1></center>
+             <div class="img-content">
+               <h3>PIB</h3>
+               <a
+                 href="https://datosmacro.expansion.com/pib/colombia#:~:text=La%20cifra%20del%20PIB%20en,los%2053%20pa%C3%ADses%20que%20publicamos."
+                 class="btn btn-primary"
+                 target="blank"
+                 >Leer más</a
+               >
+             </div>
+           </div>
+         </div>
+        <br><br><br> <div class="inteligencia-type">
+           <div class="img-container">
+          <center>   <img src="./imagenes/dolar.jpg" alt="error" width="255px" height="255px"></center>
+           <center> <h1>Dólar</h1></center> 
+             <div class="img-content">
+               <h3>Dólar</h3>
+               <a
+                 href="https://www.banrep.gov.co/es/estadisticas/comportamiento-del-mercado-del-dolar-durante-el-dia-informacion-tiempo-real"
+                 class="btn btn-primary"
+                 target="blank"
+                 >Leer más</a
+               >
+             </div>
+           </div>
+         </div>
+       <br><br><br>  <div class="inteligencia-type">
+           <div class="img-container">
+           <center> <img src="./imagenes/petroleo.jpg" alt="error" width="255px" height="255px"></center> 
+             <center><h1>Petróleo</h1></center>
+             <div class="img-content">
+               <h3>Petróleo</h3>
+               <a
+                 href="https://datosmacro.expansion.com/materias-primas/opec"
+                 class="btn btn-primary"
+                 target="blank"
+                 >Leer más</a >
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section id="articulos">
+       <h2 class="articulos-title">Hablemos de economía</h2>
+       <div class="articulos-container container">
+         <div class="articulos-box">
+           <div class="customer-detail">
+             <div class="customer-photo">
+               <img src="./imagenes/crecimiento-economico.jpg" alt="" />
+               <h1 class="customer-name">¿Qué es la economía?</h1> 
+             </div>
+           </div>
+           <div class="star-rating">
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+           </div>
+           <p class="articulos-text">
+            ¿Que se entiende por economía colombiana?
+            Sistema económico de Colombia: ¡Conozca cómo funciona!
+            La economía de Colombia se basa en un sistema de libre mercado, 
+            que se fundamenta en la producción e intercambio de bienes y servicios,
+            entre personas y empresas, mediante transacciones monetarias, 
+            donde el precio es fijado por la oferta y la demanda.
+           </p>
+          
+          </div>
+         <div class="articulos-box">
+           <div class="customer-detail">
+             <div class="customer-photo">
+               <img src="./imagenes/economia2.jpg" alt="" />
+               <h1 class="customer-name">Estado de la Economía</h1>
+             </div>
+           </div>
+           <div class="star-rating">
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+           </div>
+           <p class="articulos-text">
+            Colombia tiene un historial de gestión macroeconómica y fiscal prudente,
+             anclado en un régimen de inflación objetivo, un tipo de cambio flexible y un marco fiscal basado en una regla fiscal moderna, 
+             que proveen una buena base para asegurar la estabilidad macroeconómica, un ingrediente clave para la reducción de la pobreza.
+           </p>
+          
+         </div>
+       </div>
+     </section>
+     <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <h2>Tasas de interés en los principales bancos de colombia</h2>
+          <br>
+          <div class="Cabecera">
+            <h3>Tasas de interés</h3>
+          </div>
+          <table border>
+            <thead>
+              <tr>
+                <th> # </th>
+                <th>Nombre del banco</th>
+                <th>Tasa de interés mensual</th>
+                <th>Tasa anual</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> 1 </td>
+                <td>Bancolombia</td>
+                <td> 2,33% mensual </td>
+                <td> 28% anual </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td>Banco de Bogotá</td>
+                <td> 1,9% mensual</td>
+                <td> 25,34% anual</td>
+              </tr>
+              <tr>
+                <td> 3 </td>
+                <td>Davivienda</td>
+                <td> 2,06% mensual</td>
+                <td> 28,17% anual</td>
+              </tr>
+            </tbody>
+          </table>
+          <h1>Estos valores pueden cambiar y actualizarse.</h1>
+          <p>Si necesitas más información da click en la imagen. </p>
+        </div>
+        <div class="inteligencia-type">
+          <div class="img-container">
+          <center> <img src="./imagenes/banco.jpg" alt="error" width="255px" height="255px"></center> 
+            <center><h1>Banco de la república</h1></center>
+            <div class="img-content">
+            
+              <a
+                href="https://www.banrep.gov.co/es/estadisticas/tasas-de-interes-y-sector-financiero"
+                class="btn btn-primary"
+                target="blank"
+                >Leer más</a >
+            </div>
+          </div>
+        </div>
+      </div>
+         
+        </div>
+      </div>
+    </section>
+    
+    <center>
+     <header>
+      <h1>Calculadora Financiera</h1>
+  </header>
+  <main>
+      <table>
+          <tr>
+              <th colspan="5">
+                  <input id="displayBox" type="text" readonly>
+              </th>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bMClear">
+                      <button class="button greybutton" type="button" onclick="calculadora.clearMemory()">MC</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bMRead">
+                      <button class="button greybutton" type="button" onclick="calculadora.readMemory()">MR</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bMAdd">
+                      <button class="button greybutton" type="button" onclick="calculadora.addToMemory()">M+</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bMSub">
+                      <button class="button greybutton" type="button" onclick="calculadora.subtractFromMemory()">M-</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bMSave">
+                      <button class="button greybutton" type="button" onclick="calculadora.saveToMemory()">MS</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bSquare">
+                      <button class="button blackbutton" type="button" onclick="calculadora.square()">x^2</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bNthPowerOfTenOr">
+                      <button class="button blackbutton" type="button" onclick="calculadora.nthTenPower()">10^x</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bSine">
+                      <button class="button blackbutton" type="button" onclick="calculadora.writeMathFunction('sin(')">sin</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bCosine">
+                      <button class="button blackbutton" type="button" onclick="calculadora.writeMathFunction('cos(')">cos</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bTangent">
+                      <button class="button blackbutton" type="button" onclick="calculadora.writeMathFunction('tan(')">tan</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bCube">
+                      <button class="button blackbutton" type="button" onclick="calculadora.cube()">x^3</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bInverseNumber">
+                      <button class="button blackbutton" type="button" onclick="calculadora.inverseNumber()">x^-1</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bSqrt">
+                      <button class="button blackbutton" type="button" onclick="calculadora.writeMathFunction('sqrt(')">sqrt</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bLogOr">
+                      <button class="button blackbutton" type="button" onclick="calculadora.writeMathFunction('log(')">log</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bNaturalLog">
+                      <button class="button blackbutton" type="button" onclick="calculadora.writeMathFunction('ln(')">ln</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bPercentage">
+                      <button class="button" type="button" onclick="calculadora.writeMathFunction('e')">e</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bClearDisplayCE">
+                      <button class="button redbutton" type="button" onclick="calculadora.clearDisplay()">CE</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bClearDisplayC">
+                      <button class="button redbutton" type="button" onclick="calculadora.clearDisplay()">C</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bDelete">
+                      <button class="button redbutton" type="button" onclick="calculadora.eraseLastInput()">Del</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bDivide">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeOperatorToDisplay('/')">/</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bPi">
+                      <button class="button" type="button" onclick="calculadora.writeMathFunction('PI')">π</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bSeven">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('7')">7</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bEight">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('8')">8</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bNine">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('9')">9</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bMultiply">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeOperatorToDisplay('*')">x</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bFactorial">
+                      <button class="button" type="button" onclick="calculadora.calculateFactorial()">n!</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bFour">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('4')">4</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bFive">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('5')">5</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bSix">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('6')">6</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bSubtract">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeOperatorToDisplay('-')">-</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bToggleSign">
+                      <button class="button greenbutton" type="button" onclick="calculadora.toggleSign()">(-)</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bOne">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('1')">1</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bTwo">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('2')">2</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bThree">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('3')">3</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bAdd">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeOperatorToDisplay('+')">+</button>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div class="displaytable-cell" id="bOpenParentheses">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeOperatorToDisplay('(')">(</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bCloseParentheses">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeOperatorToDisplay(')')">)</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bZero">
+                      <button class="button bluebutton" type="button" onclick="calculadora.writeToDisplay('0')">0</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bDot">
+                      <button class="button greenbutton" type="button" onclick="calculadora.writeToDisplay('.')">.</button>
+                  </div>
+              </td>
+              <td>
+                  <div class="displaytable-cell" id="bEquals">
+                      <button class="button greenbutton" type="button" onclick="calculadora.solveOperation()">=</button>
+                  </div>
+              </td>
+          </tr>
+      </table>
+  </main>
+</center>
+
+     <footer class="text-center text-white fixed-bottom" style="background-color: #ffffff;">
+      <!-- Grid container -->
+      <div class="container p-4"></div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+     <center> <div class="text-center p-3" style="background-color: rgb(255, 255, 255);">
+        © 2023 Copyright:</center>  
+       <center> <h3><a class="text-white" href="#">Revista Vanguardia Interactiva &copy; Derechos reservados</a></h3></center>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  <footer id="footer">
+    <p></p>
+  </footer>
+</body>
+</html>
